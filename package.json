@@ -1,0 +1,42 @@
+{
+  "name": "itube-dl-button",
+  "version": "0.0.1",
+  "description": "Helper UI Elements for fetching video and audio links to iTube ",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "preinstall": "npm install -g typescript ts-node",
+    "dev": "ts-node-dev src/init.ts",
+    "start": "ts-node src/init.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chraschi/itube-dl-button.git"
+  },
+  "keywords": [
+    "tampermonkey",
+    "iTube",
+    "userscripts",
+    "web-ui",
+    "download",
+    "media-download",
+    "youtube",
+    "one-click-solution"
+  ],
+  "author": "chraschi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chraschi/itube-dl-button/issues"
+  },
+  "homepage": "https://github.com/chraschi/itube-dl-button#readme",
+  "dependencies": {
+    "@types/systemjs": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "tslib": "^2.3.1"
+  }
+}
